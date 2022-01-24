@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <p id="display"></p>
+        </div>
+        <div class="row1">
+            <input type="button" value="CE" id="clean">
+            <input type="button" value="⬅️" id="back-space">
+            <input type="button" value="%" id="get-percentage">
+            <input type="button" value="√" class="square-root">
+        </div>
+        <div class="row2">
+            <input type="button" value="1" class="number">
+            <input type="button" value="2" class="number">
+            <input type="button" value="3" class="number">
+            <input type="button" value="+" class="operator">
+        </div>
+        <div class="row3">
+            <input type="button" value="4" class="number">
+            <input type="button" value="5" class="number">
+            <input type="button" value="6" class="number">
+            <input type="button" value="-" class="operator">
+        </div>
+        <div class="row4">
+            <input type="button" value="7" class="number">
+            <input type="button" value="8" class="number">
+            <input type="button" value="9" class="number">
+            <input type="button" value="*" class="operator">
+        </div>
+        <div class="row5">
+            <input type="button" value="+/-" id="switch-to-minus">
+            <input type="button" value="0" class="number">
+            <input type="button" value="." class="operator">
+            <input type="button" value="/" class="operator">
+            <input type="button" value="=" class="get-result">
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="app.js"></script>
+<script src="eventListeners.js"></script>

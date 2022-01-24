@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'calculator';
+    src: url(fonts/Calculator.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    background: linear-gradient(90deg, rgba(0,0,3,1) 0%, rgba(1,10,60,1) 18%, rgba(8,93,111,1) 97%);
+    margin: auto;
+    margin-top: 7%;
+    font-family: 'calculator';
+    font-weight: 1000;
+    font-size: 0px;
+}
+.container {
+    margin: auto;
+    background: linear-gradient(90deg, rgba(47,47,50,1) 15%, rgba(80,80,84,1) 48%, rgba(255,255,255,1) 100%);
+    width: 195px;
+    padding: 15px;
+    border: 3px solid #505054;
+    border-radius: 15px;
+    box-shadow: -5px 6px 10px 2px
+}
+
+#display {
+    font-family: 'Poppins';
+    margin: 0;
+    margin-bottom: 25px;
+    position: relative;
+    background-color: #c4c4c7;
+    height: 30px;
+    text-align: end;
+    padding-right:0.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+input[type='button'] {
+    font-family: 'Poppins';
+    border-radius: 5px;
+    width: 3rem;
+    height: 3rem;
+    font-weight: bolder;
+    font-size: 13px;
+    color: black;
+    background-color: rgb(212, 209, 209);
+}
+
+input[type='button']:hover {
+    background: linear-gradient(90deg, rgba(167, 167, 175, 0.521) 0%, rgba(40, 57, 156, 0.507) 18%, rgba(128, 186, 197, 0.575) 97%);
+}
